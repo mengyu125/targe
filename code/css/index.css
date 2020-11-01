@@ -1,0 +1,299 @@
+/*1.====================顶部=======================*/
+ /*顶部外层容器*/
+.topbar{
+    height: 28px;
+    background-color: #101010;
+}
+/*顶部里层容器*/
+.topbar .container{
+    height: 28px;
+   background-color:#101010;
+}
+/*里面的p标签*/
+.topbar .container p{
+    height: 28px;
+    line-height: 28px;
+    color: #f1f1f1;
+}
+/*第一个p标签*/
+.topbar .container p:first-child{
+    text-indent:210px ;
+}
+/*第一个p标签下面的a标签*/
+.topbar .container p:first-child a{
+      color:#fff;
+      text-decoration: none;
+      
+}
+/*第二个p标签*/
+.topbar .container p:nth-child(2){
+    margin-right: 10px;
+}
+/*第二个p标签下面的标题和注册*/
+.topbar .container p:nth-child(2) .title,.topbar .container p:nth-child(2) .register{
+    color: #ff6700;
+}
+/*第二个下面的登录*/
+.topbar .container p:nth-child(2) .login{
+     color:#fff ;
+}
+
+
+/*2.====================导航====================*/
+.nav{
+    height: 80px;
+    background-color: #fff;
+}
+/*搜索购物车订单大容器*/
+.nav .search-shopcart-order{
+    margin-top: 5px;
+    height: 35px;
+}
+.nav .category-menu {
+    margin-top:15px ;
+    height: 30px;
+    background-color: red;
+}
+/*搜索框*/
+.nav .search-shopcart-order .search-input{
+    width: 440px;
+    height: 35px;
+    background-color: #ff6700;
+    margin-right: 38px;
+    position: relative;
+}
+/*搜索框中的图标span*/
+.nav .search-shopcart-order .search-input span{
+    display: inline-block;
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    right:0;
+    top:0;
+    background-image: url('../images/bgicon.png');
+
+}
+/*搜索框*/
+.nav .search-shopcart-order .search-input .search{
+    width: 390px;
+    height: 31px;
+    border: 2px solid #ff6700;
+    text-indent: 10px;
+    color: #333;
+    outline: none;
+}
+/*购物车和订单*/
+.nav .search-shopcart-order .shopcart-order{
+    width: 200px;
+    height: 35;
+    background-color: pink;
+    font-size: 0;
+}
+/*购物车订单按钮*/
+.nav .search-shopcart-order .shopcart-order button{
+    width:100px;
+    height: 35px;
+    background-color:#ebebeb ;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    color: #333;
+}
+/*购物车按钮*/
+.nav .search-shopcart-order .shopcart-order button:nth-child(1){
+    background-color: #ff6700;
+   color: #fff;
+   padding-left: 3px;
+}
+/*购物车图标*/
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span:first-child{
+   /*
+    background-color: green;
+    background-repeat: no-repeat;
+    */
+   background-image: url('../img/a.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 16px;
+    margin-right: 3px;
+}
+/*购物车文字*/
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span:nth-child(2){
+     vertical-align: top;
+     display: inline-block;
+    
+}
+/*数量*/
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span:nth-child(3){
+   vertical-align: top;
+   display: inline-block;
+   width: 20px;
+   margin-left: 15px;
+}
+/*分类导航*/
+.nav .category-menu{
+    margin-top: 15px;
+    height: 30px;
+    background-color:#f1f1f1;
+}
+.nav .category-menu .left-logo{
+            width: 200px;
+            height: 30px;
+           
+            float: left;  
+            position: relative;
+}
+.nav .category-menu .left-logo img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.nav .category-menu ul{
+    width: 1000px; 
+    height: 30px;
+   
+}
+.nav .category-menu ul li{
+     float: left;
+     height: 30px;
+     line-height: 30px;
+     width: 80px;
+     color: #333;
+     font-size: 14px;
+     text-align: center;
+     font-weight: 700;
+    }
+/*3.=================分类导航和banner=================*/
+.menu{
+   height: 430px;
+   
+}
+.menu .sideMenu{
+     height: 430px;
+     width: 200px;
+     background-color:red;
+    }
+.menu .sideMenu ul{
+    height: 430px;
+    width: 200px;
+    background-color: #f3f3f3;
+    position: relative;
+}
+.menu .sideMenu ul li{
+   height: 30px;
+    line-height: 30px;
+    width: 200px;
+    text-indent: 20px;
+}
+.menu .sideMenu ul li a{
+    color: #353535;
+    text-decoration: none;
+}
+.menu .sideMenu ul li a:hover{
+    color: #ff6700;
+}
+.menu .sideMenu ul li:hover{
+   background-color: #fff;
+}
+.menu .sideMenu ul li:hover a{
+    colcor:#ff6700;
+}
+.menu .sideMenu ul li .title{
+    width: 198px;
+    height: 30px;
+    line-height: 30px;
+    
+    
+}
+.menu .sideMenu ul li:hover .title{
+    background-color: #fff;
+    position: absolute;
+    z-index: 99;
+    
+}
+.menu .sideMenu ul li:hover .subMenu{
+    display: block;
+    
+}
+.menu .sideMenu ul li .subMenu{
+    position:absolute;
+    top: 0;
+    left: 198px;
+    border: 2px solid #ff6700;
+    width: 500px;
+    height: 426px;
+    display: none;
+    
+}
+.menu .banner {
+    height: 430px;
+    width: 1000px;
+    
+    
+   
+}
+
+
+/*4.=================今日推荐=================*/
+.recommend{
+    height: 500px;
+    background-color: #cccccc;
+}
+
+
+
+/*5.=================电子书=================*/
+.ebooks{
+    height: 500px;
+    background-color: #333333;
+}
+
+
+/*6.=================服装=================*/
+.clothes{
+    height: 500px;
+    background-color: #cccccc;
+}
+
+
+
+/*7.=================户外运动=================*/
+.sport{
+    height: 500px;
+    background-color: #333333;
+}
+
+
+
+
+/*8.=================童装===================*/
+.children-clothes{
+    height: 500px;
+    background-color: #cccccc;
+}
+
+
+/*9.=================家居日用=================*/
+.daily{
+    height: 500px;
+    background-color: #333333;
+}
+
+
+
+
+/*10.=================推广商品=================*/
+.promotion{
+    height: 500px;
+    background-color: #cccccc;
+}
+
+
+
+/*11.=================尾部=====================*/
+.footer{
+    height: 500px;
+    background-color: #333333;
+}
