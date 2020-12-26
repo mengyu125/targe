@@ -1,0 +1,295 @@
+/* 清除浮动 */
+.clearfix::after{
+content: '';
+display: inline-block;
+height: 0;
+clear: both;
+}
+
+/*左浮动*/
+.fl{
+    float: left;
+    margin-top: 0px;
+}
+/*右浮动*/
+.fr{
+float: right;
+margin-top: 0px;
+}
+
+/*版心*/
+.container{
+    width: 1350px;
+    margin: 0 auto;
+}
+
+
+
+
+/* ===========  1.顶部 ===========  */
+/*  当前时间  */
+.h3_title{
+    font: 12px/32px 微软雅黑;margin: 0 30px;border-bottom: 1px solid #F0DDDE;position: relative;
+    left: 245px;
+    top: -2px;
+    color: salmon;
+    }
+    /*  顶部外层容器  */
+    .top{
+    height: 28px;
+    background-color: #101010;
+    }
+    /*  顶部里层容器  */
+    .top .container{
+    height: 28px;
+    background-color: #101010;
+    }
+    .top .container p{
+    height: 28px;
+    line-height: 28px;
+    color: #f1f1f1;
+    }
+    .top .container p:first-child  {
+    text-indent: 210px;
+    }
+    .top .container p:first-child a {
+    color: #fff;
+    text-decoration: none;
+    }
+    .top .container p:nth-child(2) {
+    margin-left: 10px;
+    }
+    .top .container p:nth-child(2) .title, .top .container p:nth-child(2) .zhuce{
+    color: #ff6700;
+    }
+    .top .container p:nth-child(2) .login{
+    color: #fff;
+    }
+    
+    
+    /* ===========  2.导航 =========== */
+    .nav{
+    height: 80px;
+    background-color: #fff;
+    }
+    /* 搜索购物车大容器*/
+    .nav .search-shopcart-order {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 35px;
+    
+    }
+    /* 搜索框*/
+    
+    .nav .search-shopcart-order  .search-input{
+    width: 140px;
+    height: 35px;
+    background-color: #ff6700;
+    margin-right: 200px;
+    position: relative;
+    
+    }
+    /* 搜索框中的图标span*/
+    .nav .search-shopcart-order  .search-input span{
+    display: inline-block;
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 285px;
+    background-image: url('../img/bgicon.png');
+    }
+    /* 搜索框*/
+    .nav .search-shopcart-order  .search-input .search{
+    width: 390px;
+    height: 31.5px;
+    border: 2px solid #ff6700;
+    text-indent: 10px;
+    color: #333;
+    outline: none;
+    margin-top: 0px;
+    margin-left: -60px;
+    }
+    /* 购物车和订单*/
+    .nav .search-shopcart-order  .shopcart-order{
+    width: 200px;
+    height: 35px;
+    background-color: pink;
+    font-size: 0;
+    
+    }
+    /* 购物车订单按钮*/
+    .nav .search-shopcart-order  .shopcart-order button{
+    width: 100px;
+    height: 35px;
+    background-color: #ebebeb;
+    border:  1px solid#ccc;
+    font-size: 12px;
+    color: #333;
+    outline: none;
+    }
+    /* 购物车按钮*/
+    .nav .search-shopcart-order  .shopcart-order button:nth-child(1){
+    background-color: #ff6700;
+    color: #fff;
+    padding-left:  3px;
+    vertical-align: top;
+    }
+    /* 购物车图标*/
+    .nav .search-shopcart-order  .shopcart-order button:nth-child(1) span:first-child {
+    background-color: #ff6700;
+    background-image: url('../img/gwc.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 16px;
+    margin-left: -15px;
+    }
+    /* 购物车文字*/
+    .nav .search-shopcart-order  .shopcart-order button:nth-child(1) span:nth-child(2){
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    left: 5px;
+    }
+    /* 数量 */
+    .nav .search-shopcart-order  .shopcart-order button:nth-child(1) span:nth-child(3){
+    vertical-align: top;
+    display: inline-block;
+    width: 18px;
+    position: relative;
+    top: 0px;
+    left: 2px;
+    color:white;
+    font-weight: 500px;
+    }
+    
+    
+    /*     分类导航     */
+    .nav .category-Menu {
+    margin-top: 15px;
+    height: 30px;
+    
+    }
+    
+    .nav .category-Menu .left-logo{
+    width: 200px;
+    height: 30px;
+    background-color: #fff;
+    position: relative;
+    }
+    .nav .category-Menu .left-logo img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    }
+    
+    .nav .category-Menu ul {
+    width: 1110px;
+    height: 30px;
+    list-style-type: none;
+    background-color: white;
+    }
+    .nav .category-Menu ul li a{
+    text-decoration: none;
+    color: rosybrown;
+    }
+    
+    .nav .category-Menu ul li {
+    position: relative;
+    left: -50px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    width: 95px;
+    color: #333;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+    }
+    
+                                      /*   11.尾部*/
+.footer {
+    height: 470px;
+    margin-top: 50px;
+    }
+    
+    /* 标题*/
+    .footer  .footer-title {
+        font-size: 24px;
+        text-indent: 20px;
+        height: 45px;
+        width: 1660px;
+        position: relative;
+        left: -100px;
+        line-height: 40px;
+        color: #ff6700;
+        font-weight: 500;
+        background-color: #fff;
+        border-bottom: 6px solid #ff6700;
+        }
+    
+    .footer .logo-list {
+    width: 1660px;
+    height: 90px;
+    position: relative;
+    left: -100px;
+    background-color: #ccc;
+    }
+    .footer .logo-list .logo-wrap {
+    width: 786px;
+    height: 96px;
+    margin:  0 auto;
+    }
+    .footer .logo-list .logo-wrap li {
+    list-style-type: none;
+    width: 132px;
+    height: 50px;
+    float: left;
+    margin-top: 23px;
+    }
+    .footer .logo-list .logo-wrap li:not(:first-child) {
+    margin-left: 86px;
+    }
+    .footer .footer-text {
+    height: 374px;
+    position: relative;
+    margin-top: 40px;
+    box-sizing: border-box;
+    }
+    .footer .footer-text img {
+    position: absolute;
+    right: 98px;
+    
+    }
+    
+    .footer .footer-text ul {
+    width: 695px;
+    height: 132px;
+    margin:  0 auto;
+    }
+    
+    
+    .footer .footer-text ul li {
+    float: left;
+    width: 139px;
+    height: 132px;
+    text-align: center;
+    list-style-type: none;
+    }
+    .footer .footer-text ul li dl {
+    line-height: 26px;
+    }
+    .footer .footer-text ul li dl dt {
+    font-weight: 600;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    }
+    .footer .footer-text p {
+    text-align: center;
+    margin-top: 45px;
+    }
+    

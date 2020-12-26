@@ -1,0 +1,45 @@
+/*购物车*/
+.shopcart {
+    height: 630px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.shopcart h3 {
+    font-size: 24px;
+    color: #ff6700;
+    text-indent: 20px;
+    font-weight: 500;
+}
+.shopcart table {
+    height: 500px;
+    width: 1350px;
+    text-align: center;
+}
+.shopcart table thead tr th {
+    height: 60px;
+    background-color: #f1f1f1;
+}
+
+.shopcart .totalPrice {
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+}
+.shopcart .totalPrice span{
+    margin-right: 150px;
+}
+.shopcart .totalPrice span:first-of-type{
+    margin-left: 100px;
+}
+.shopcart .totalPrice {
+    margin-left: 10px;
+}
+.shopcart table button {
+    width: 20px;
+    height: 20px;
+}
+.shopcart table input {
+    width: 50px;
+}
