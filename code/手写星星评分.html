@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>document</title>
+   <!--iconfont.css-->
+   <link rel="stylesheet" href="../iconfont/iconfont.css">
+   <link rel="stylesheet" href="../css/starRate.css">
+   <style>
+   /*
+   .on{
+        font-size: 50px;
+        color: gold;
+    }
+    .half{
+        font-size: 40px;
+        color: gold;
+    }
+    .off{
+        font-size: 50px;
+        color: gray;
+    }
+    */
+   </style>
+    </head>
+    <body>
+        <div class="box1"></div>
+        <div class="box2"></div>
+
+        <!--jquery.min.js-->
+    <script src="../js/jquery-1.11.0.js"></script>
+    <script src="../js/starRate.js"></script>
+    <script>  
+                $(function(){
+                  var star1=   createStarRate(3.6);
+                  $('.box1').html(star1);
+                 
+                 
+                 //扩展
+               // $('.box1').createStarRate(3.6)
+
+               // $('.box2').createStarRate(3.2);
+               //  console.log(star2);
+               //  $('.box2').html(star2);
+               // var star3 =createStarRate(3.6);
+               //   $('.box3').html(star3);
+               // $('.box3').createStarRate(4.7) 
+                })
+    </script>
+    </body>
+</html>
